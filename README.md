@@ -5,7 +5,7 @@
 -->
 
 ## Description
-You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting.
+You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting. A [Blog](https://medium.com/p/a39039ad9c6b) reflects the use of this code from this repository as reference
 
 ## Requirements
 Python 3 and above
