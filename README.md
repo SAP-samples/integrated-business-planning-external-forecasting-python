@@ -1,41 +1,33 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
-
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
+# [Sample Python code for using External Forecasting algorithims via APIs in the Integrated Business Planning for Supply Chain (SAP IBP)]
+You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting.
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/integrated-business-planning-external-forecasting-python)](https://api.reuse.software/info/github.com/SAP-samples/integrated-business-planning-external-forecasting-python)
 -->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+
 
 ## Requirements
+Python 3 and above
 
 ## Download and Installation
+Download the best practice planning view template that fits to your need here.
+
+For more information have a look at [SAP note 3170544.](https://launchpad.support.sap.com/#/notes/3170544).
+
+If you like to visualize your Planning view via Excel, then you might intall the Excel add-in and configure the access to an IBP system.
+
+
+## Additional Information
+To learn more about the External Forecasting API, [this blog](https://blogs.sap.com/2022/05/11/how-to-forecast-using-custom-external-algorithms) might be interesting.
+If you wish to use Google's Vertex AI, perhaps you may want to [refer here](https://cloud.google.com/vertex-ai).
 
 ## Known Issues
-<!-- You may simply state "No known issues. -->
+None
 
 ## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
- 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
-
-## Contributing
-If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+These sample code repo is provided !as-is", no support is provided. These source codes are not meant for production use, rather it is intented as a reference for learning. They are supposed to help you get started. For additional support, you might post your question in the [SAP Community](https://answers.sap.com/questions/ask.html)
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
