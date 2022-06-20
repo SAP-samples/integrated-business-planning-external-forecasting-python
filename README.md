@@ -1,12 +1,11 @@
-# [Sample Python code for using External Forecasting algorithims via APIs in the Integrated Business Planning for Supply Chain (SAP IBP)]
-You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting.
+# Sample Python code for using External Forecasting algorithims via APIs in the Integrated Business Planning for Supply Chain (SAP IBP)
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/integrated-business-planning-external-forecasting-python)](https://api.reuse.software/info/github.com/SAP-samples/integrated-business-planning-external-forecasting-python)
 -->
 
 ## Description
-
+You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting.
 
 ## Requirements
 Python 3 and above
