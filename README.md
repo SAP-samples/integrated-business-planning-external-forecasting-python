@@ -2,8 +2,9 @@
 
 
 ## Description
+
 You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting. A [Blog](https://saviodomnic.medium.com/google-vertex-ai-for-supply-chain-planning-a39039ad9c6b) reflects the use of this code from this repository as reference
-=======
+
 This repository serves as a collection of code examples for using APIs that are part of SAP Integrated Business Planning (SAP IBP) for Supply Chain. These samples are not part of the product but created for developers to understand how to consume the APIs or use them to integrate with their processes. The focus is on integrating with external forecasting APIs.
 
 You can also find the integration to Google Vertex AI as an external platform used for forecasting. See the blog [Google Vertex AI for Supply Chain Planning](https://saviodomnic.medium.com/google-vertex-ai-for-supply-chain-planning-a39039ad9c6b) for reference. 
