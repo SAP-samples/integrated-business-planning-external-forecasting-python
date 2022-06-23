@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/integrated-business-planning-external-forecasting-python)](https://api.reuse.software/info/github.com/SAP-samples/integrated-business-planning-external-forecasting-python)
+
 # Using External Forecasting Algorithms via APIs in SAP Integrated Business Planning for Supply Chain 
 
 
