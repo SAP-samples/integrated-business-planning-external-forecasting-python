@@ -1,0 +1,15 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: <deployment-name>
+endpoint_name: <endpoint-name>
+#environment:  # will be set from outside, commented out to avoid swiggles, use @lastest postfix for latest
+#model:  # needs to be set from outside when used, commented out to avoid swiggles, use @lastest postfix for latest
+code_configuration:
+  code: ./code/
+  scoring_script: score.py
+instance_type: Standard_F2s_v2
+instance_count: 1
+app_insights_enabled: true
+request_settings:
+  request_timeout_ms: 90000
+environment_variables:
+  AZUREML_ENTRY_SCRIPT: ./code/score.py

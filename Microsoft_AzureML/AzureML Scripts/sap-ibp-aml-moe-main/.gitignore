@@ -1,0 +1,3 @@
+.azure
+__pycache__
+sample_request_azure.http

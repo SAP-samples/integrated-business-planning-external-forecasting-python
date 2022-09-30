@@ -1,0 +1,131 @@
+# install REST Client extension in VS.Code to send requests
+
+# to send a request against a Managed Online Endpoint
+#POST https://<endpoint name>.<region>.inference.ml.azure.com/score HTTP/1.1
+#Authorization: Bearer <one of the two auth keys for your web service>
+
+POST http://localhost:5001/score HTTP/1.1
+Content-Type: application/json
+
+{
+    "@odata.context": "$metadata#Request(_TimePeriod())",
+    "@odata.metadataEtag": "W/\"20220820002903\"",
+    "Metadata": [
+        {
+            "RequestID": 20,
+            "AlgorithmName": "Average",
+            "AlgorithmParameter": ",",
+            "HistoricalPeriods": 5,
+            "ForecastPeriods": 5,
+            "Periodicity": "",
+            "_TimePeriod": []
+        }
+    ],
+    "value": [
+        {
+            "RequestID": 20,
+            "GroupID": 5085,
+            "_AlgorithmDataInput": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 5085,
+                    "SemanticKeyFigure": "HISTORY",
+                    "TimeSeries": "6316;6470;230024;129796;2496;0;0;0;0;0",
+                    "FirstPeriodIndex": 0
+                }
+            ],
+            "_MasterData": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 5085,
+                    "AttributeID": "PRDID",
+                    "AttributeValue": "PRODUCT_0002"
+                }
+            ]
+        },
+        {
+            "RequestID": 20,
+            "GroupID": 5465,
+            "_AlgorithmDataInput": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 5465,
+                    "SemanticKeyFigure": "HISTORY",
+                    "TimeSeries": "4542;4678;4170;4514;296;0;0;0;0;0",
+                    "FirstPeriodIndex": 0
+                }
+            ],
+            "_MasterData": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 5465,
+                    "AttributeID": "PRDID",
+                    "AttributeValue": "PRODUCT_0005"
+                }
+            ]
+        },
+        {
+            "RequestID": 20,
+            "GroupID": 5826,
+            "_AlgorithmDataInput": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 5826,
+                    "SemanticKeyFigure": "HISTORY",
+                    "TimeSeries": "4440;4762;4306;4626;278;0;0;0;0;0",
+                    "FirstPeriodIndex": 0
+                }
+            ],
+            "_MasterData": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 5826,
+                    "AttributeID": "PRDID",
+                    "AttributeValue": "PRODUCT_0001"
+                }
+            ]
+        },
+        {
+            "RequestID": 20,
+            "GroupID": 6084,
+            "_AlgorithmDataInput": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 6084,
+                    "SemanticKeyFigure": "HISTORY",
+                    "TimeSeries": "4788;5256;5098;5008;278;0;0;0;0;0",
+                    "FirstPeriodIndex": 0
+                }
+            ],
+            "_MasterData": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 6084,
+                    "AttributeID": "PRDID",
+                    "AttributeValue": "PRODUCT_0003"
+                }
+            ]
+        },
+        {
+            "RequestID": 20,
+            "GroupID": 6641,
+            "_AlgorithmDataInput": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 6641,
+                    "SemanticKeyFigure": "HISTORY",
+                    "TimeSeries": "4988;5994;5480;5504;352;0;0;0;0;0",
+                    "FirstPeriodIndex": 0
+                }
+            ],
+            "_MasterData": [
+                {
+                    "RequestID": 20,
+                    "GroupID": 6641,
+                    "AttributeID": "PRDID",
+                    "AttributeValue": "PRODUCT_0004"
+                }
+            ]
+        }
+    ]
+}

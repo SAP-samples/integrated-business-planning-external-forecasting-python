@@ -1,0 +1,29 @@
+# install conda and run "conda env create --name sap-ibp-aml-moe --file dev-conda.yml -y" to create your dev conda env.
+# afterwards, run "conda activate sap-ibp-aml-moe" to activate the environment in your terminal, and select the
+# sap-ibp-aml-moe environment in VS.Code to activate it there.
+
+name: sap-ibp-aml-moe
+channels:
+  - conda-forge
+dependencies:
+    - python=3.8
+    - pip
+    - ipykernel
+    #- cudatoolkit=11.2
+    #- cudnn=8.1.0
+    - pip:
+        - black
+        - pylint
+        - matplotlib~=3.5.0
+        - psutil~=5.8.0
+        - tqdm~=4.62.0
+        - pandas~=1.3.0
+        - scipy~=1.7.0
+        - numpy~=1.21.0
+        - scikit-learn~=1.0.0
+        - ipykernel~=6.0
+        - azureml-sdk~=1.44.0
+        - azureml-mlflow~=1.44.0
+        - azureml-contrib-services~=1.44.0
+        - azureml-inference-server-http~=0.7.5
+        - scikit-learn~=1.0.0

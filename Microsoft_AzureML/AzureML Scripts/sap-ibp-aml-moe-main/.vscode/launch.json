@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug score.py",
+            "type": "python",
+            "request": "launch",
+            // note: for AML Inference Server 0.7.3+ you need to use
+            //       "azureml_inference_server_http" instead of
+            //       "azureml_inference_server_http.amlserver"
+            "module": "azureml_inference_server_http",
+            "args": [
+                "--entry_script",
+                "webservice/code/score.py",
+                "--model_dir",
+                "webservice/model"
+            ],
+        }
+    ]
+}
