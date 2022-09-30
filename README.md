@@ -4,12 +4,17 @@
 
 
 ## Description
+The Repo contains three main folders which contain different platforms used to do external forecasting. The user can decide which of the platforms he would like to use for his scenario. This repository serves as a collection of code examples for using APIs that are part of SAP Integrated Business Planning (SAP IBP) for Supply Chain. These samples are not part of the product but created for developers to understand how to consume the APIs or use them to integrate with their processes. The focus is on integrating with external forecasting APIs.
 
-You can find Python based sample code for using the External Forecast APIs. Additionally you can also find the integration to Google Vertex AI as a external platform used for forecasting. A [Blog](https://saviodomnic.medium.com/google-vertex-ai-for-supply-chain-planning-a39039ad9c6b) reflects the use of this code from this repository as reference
+### The SAP_IBP_ExternalForeasting
+This folder contains Python scripts which can be downloaded and modified to calculate the forecasts using Python on his local computer or on a hosted environment where Python is running.
 
-This repository serves as a collection of code examples for using APIs that are part of SAP Integrated Business Planning (SAP IBP) for Supply Chain. These samples are not part of the product but created for developers to understand how to consume the APIs or use them to integrate with their processes. The focus is on integrating with external forecasting APIs.
+###  Google_Vertex_AI 
+Some of our experiments with Google Vertex AI are saved in the folder Google_Vertex_AI which can be used as a reference for storing External forecast data on a Big Query table and later use the Vertex AI Platform for calculating the forecasts. A [Blog](https://saviodomnic.medium.com/google-vertex-ai-for-supply-chain-planning-a39039ad9c6b) reflects the use of this code from this repository as reference
 
-You can also find the integration to Google Vertex AI as an external platform used for forecasting. See the blog [Google Vertex AI for Supply Chain Planning](https://saviodomnic.medium.com/google-vertex-ai-for-supply-chain-planning-a39039ad9c6b) for reference. 
+### Microsoft_AzureML
+Additionally the Microsoft_AzureML folder provides content where the SAP Cloud Integration Suite is used as a middleware to capture the notifcation from SAP IBP, prepare the data and send it over to a Python algorithim that you could implement using Micrisoft's Azure ML Studio. The Python code needs to be exposed as an endpoint and configured in a HTTP request for the SAP Cloud Integration Suite. If you plan to use Micrisift Azure ML as a platform for calculating your forecasts externally, you might consider the artifacts in this folder as a reference.
+
 
 ## Requirements
 Python 3 and above.

@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Fri Sep 30 08:52:14 UTC 2022
+description=This flow would be called by the SAP IBP System to trigger the sub flows needed for external forecasting. This can be used by Azure ML

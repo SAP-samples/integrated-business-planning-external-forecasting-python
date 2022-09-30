@@ -1,0 +1,73 @@
+{
+	"@odata.metadataEtag": "W/\"20220806092950\"",
+	"Metadata": [{
+		"ForecastPeriods": "6",
+		"HistoricalPeriods": "12",
+		"RequestID": "99",
+		"Periodicity": "",
+		"AlgorithmParameter": ",",
+		"AlgorithmName": "Average"
+	}],
+	"@odata.context": "$metadata#Input(_AlgorithmDataInput(),_MasterData())",
+	"value": [{
+		"_AlgorithmDataInput": [{
+			"TimeSeries": "501;502;505;507;501;502;500;501;505;503;504;510;515;0;0;0;0;0",
+			"RequestID": 99,
+			"SemanticKeyFigure": "HISTORY",
+			"GroupID": 9
+		}],
+		"RequestID": 99,
+		"_MasterData": [{
+			"AttributeValue": "PRDID1",
+			"RequestID": 99,
+			"AttributeID": "PRDID",
+			"GroupID": 9
+		}],
+		"GroupID": 9
+	}, {
+		"_AlgorithmDataInput": [{
+			"TimeSeries": "501;502;505;507;501;502;500;501;505;503;504;510;515;0;0;0;0;0",
+			"RequestID": 99,
+			"SemanticKeyFigure": "HISTORY",
+			"GroupID": 10
+		}],
+		"RequestID": 99,
+		"_MasterData": [{
+			"AttributeValue": "PRDID2",
+			"RequestID": 99,
+			"AttributeID": "PRDID",
+			"GroupID": 10
+		}],
+		"GroupID": 10
+	}, {
+		"_AlgorithmDataInput": [{
+			"TimeSeries": "501;502;505;507;501;502;500;501;505;503;504;510;515;0;0;0;0;0",
+			"RequestID": 99,
+			"SemanticKeyFigure": "HISTORY",
+			"GroupID": 11
+		}],
+		"RequestID": 99,
+		"_MasterData": [{
+			"AttributeValue": "PRDID3",
+			"RequestID": 99,
+			"AttributeID": "PRDID",
+			"GroupID": 11
+		}],
+		"GroupID": 11
+	}, {
+		"_AlgorithmDataInput": [{
+			"TimeSeries": "501;502;505;507;501;502;500;501;505;503;504;510;515;0;0;0;0;0",
+			"RequestID": 99,
+			"SemanticKeyFigure": "HISTORY",
+			"GroupID": 12
+		}],
+		"RequestID": 99,
+		"_MasterData": [{
+			"AttributeValue": "PRDID4",
+			"RequestID": 99,
+			"AttributeID": "PRDID",
+			"GroupID": 12
+		}],
+		"GroupID": 12
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	"RequestID": 99,
+	"_AlgorithmDataOutput": [{
+		"RequestID": 99,
+		"GroupID": 9,
+		"SemanticKeyFigure": "FORECAST",
+		"ResultData": "503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667"
+	}, {
+		"RequestID": 99,
+		"GroupID": 10,
+		"SemanticKeyFigure": "FORECAST",
+		"ResultData": "503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667"
+	}, {
+		"RequestID": 99,
+		"GroupID": 11,
+		"SemanticKeyFigure": "FORECAST",
+		"ResultData": "503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667"
+	}, {
+		"RequestID": 99,
+		"GroupID": 12,
+		"SemanticKeyFigure": "FORECAST",
+		"ResultData": "503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667;503.4166666666667"
+	}],
+	"_Message": [{
+		"RequestID": 99,
+		"GroupID": 9,
+		"MessageSequence": 1,
+		"MessageType": "I",
+		"MessageText": "Okay"
+	}, {
+		"RequestID": 99,
+		"GroupID": 10,
+		"MessageSequence": 1,
+		"MessageType": "I",
+		"MessageText": "Okay"
+	}, {
+		"RequestID": 99,
+		"GroupID": 11,
+		"MessageSequence": 1,
+		"MessageType": "I",
+		"MessageText": "Okay"
+	}, {
+		"RequestID": 99,
+		"GroupID": 12,
+		"MessageSequence": 1,
+		"MessageType": "I",
+		"MessageText": "Okay"
+	}]
+}
