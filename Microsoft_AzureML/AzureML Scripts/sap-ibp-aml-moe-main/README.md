@@ -2,9 +2,7 @@
 
 Brief example to demonstrate the development and deployment of an Azure Machine Learning Managed Online Endpoint (REST
 webservice) that forecasts on data from SAP Integrated Business Planning (IBP).
-
-This example is part of a bigger solution presented at: **!!!TODO: complete!!!**.
-
+  
 ## Prerequisites
 
 1. An Azure subscription
