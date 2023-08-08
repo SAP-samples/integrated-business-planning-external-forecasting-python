@@ -15,6 +15,17 @@ Some of our experiments with Google Vertex AI are saved in the folder Google_Ver
 ### Microsoft_AzureML
 Additionally the Microsoft_AzureML folder provides content where the SAP Cloud Integration Suite is used as a middleware to capture the notifcation from SAP IBP, prepare the data and send it over to a Python algorithim that you could implement using Micrisoft's Azure ML Studio. The Python code needs to be exposed as an endpoint and configured in a HTTP request for the SAP Cloud Integration Suite. If you plan to use Micrisift Azure ML as a platform for calculating your forecasts externally, you might consider the artifacts in this folder as a reference.
 
+### Working with Key figure API
+This folder provides code examples for using the planning services API to read and write Key figure data from a specific planning area. the code samples are in Python. Please use the server.cfg file to update your own settings such as IBP host name, communication user credentials, planning area, etc. This code can run as a stand alone service on your local computer or you can port it to an environment of your choice. If it is running on a local machine, you can use the following URLs to trigger an API call
+
+###### To read key figure data using  the Planning service api - read methods
+http://localhost:3002/ibp/sample/readKF
+
+###### To write key figure data into IBP using the Planning service api - write method
+http://localhost:3002/ibp/sample/writeKF
+
+Both the above samples use the official APIs documented under
+https://api.sap.com/api/IBP_Keyfigure_ODataService/overview 
 
 ## Requirements
 Python 3 and above.

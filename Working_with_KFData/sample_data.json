@@ -1,0 +1,74 @@
+{
+        "kf_data": [
+            {
+                "CUSTID": "0017100002",
+                "LOCID": "",
+                "PRDID": "FG126",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0037100001",
+                "LOCID": "",
+                "PRDID": "FG126",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0037100002",
+                "LOCID": "",
+                "PRDID": "FG126",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0062100001",
+                "LOCID": "",
+                "PRDID": "FG126",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0062100003",
+                "LOCID": "",
+                "PRDID": "FG126",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0010100001",
+                "LOCID": "",
+                "PRDID": "IBP-100",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0017100001",
+                "LOCID": "",
+                "PRDID": "IBP-100",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0018100001",
+                "LOCID": "",
+                "PRDID": "IBP-100",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0010100001",
+                "LOCID": "",
+                "PRDID": "IBP-110",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            },
+            {
+                "CUSTID": "0017100003",
+                "LOCID": "",
+                "PRDID": "IBP-110",
+                "PERIODID2_TSTAMP": "2022-01-01T01:00:00",
+                "CONSENSUSDEMAND": "10.00000"
+            }
+        ]
+    }
